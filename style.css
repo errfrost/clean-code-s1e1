@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .details {
+.header .header__details {
   font-family: fantasy, cursive;
 }
 
@@ -56,13 +56,13 @@
 
 .task,
 .checkbox,
-.add,
+.add-item__add,
 .edit,
 .delete {
   outline: none;
 }
 
-.add,
+.add-item__add,
 .edit,
 .delete {
   background: none;
@@ -74,7 +74,7 @@
   cursor: pointer;
 }
 
-.add:hover,
+.add-item__add:hover,
 .edit:hover,
 .delete:hover {
   color: #3a3a3a;
@@ -115,7 +115,7 @@
   margin: 0 0 20px;
 }
 
-#new-task {
+#add-item__new-task {
   width: 318px;
 }
 
