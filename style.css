@@ -49,15 +49,22 @@
   padding: 0px;
 }
 
-.title, .task-list__item {
+.title,
+.task-list__item {
   list-style: none;
 }
 
-.task, .checkbox, .add, .edit, .delete{
+.task,
+.checkbox,
+.add,
+.edit,
+.delete {
   outline: none;
 }
 
-.add, .edit, .delete {
+.add,
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +74,9 @@
   cursor: pointer;
 }
 
-.add:hover, .edit:hover, .delete:hover {
+.add:hover,
+.edit:hover,
+.delete:hover {
   color: #3a3a3a;
 }
 
@@ -135,7 +144,7 @@
   width: 226px;
 }
 
-.task-list__item >    .task-input {
+.task-list__item > .task-input {
   width: 226px;
 }
 
