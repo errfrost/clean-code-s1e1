@@ -45,16 +45,16 @@
 }
 
 .task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .title, .task-list__item {
-  list-style:none;
+  list-style: none;
 }
 
 .task, .checkbox, .add, .edit, .delete{
-  outline:none;
+  outline: none;
 }
 
 .add, .edit, .delete {
@@ -157,14 +157,14 @@
 
 /* Edit Task */
 .task-list .task-list__item .task-input {
-  display:none
+  display: none
 }
 
 .task-list .edit-mode .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-list__item .edit-mode .task-title {
-  display:none;
+  display: none;
 }
